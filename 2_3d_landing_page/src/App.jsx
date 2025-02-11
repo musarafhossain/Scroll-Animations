@@ -19,7 +19,7 @@ function App() {
         trigger: mainRef.current,
         start: "top top",
         end: "bottom bottom",
-        markers: true,
+        /* markers: true, */
         scrub: 1,
         onUpdate: (self) => {
           setProgress(self.progress)
